@@ -2,468 +2,499 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Prompt', sans-serif; 
  */
-body{
-    margin: 0;
-    background-color: white;
+body {
+  margin: 0;
+  background-color: white;
 }
 /* -----------------------------------------NAV BAR-------------------------- */
-header{
-    background-color: rgba(255,255,255, 0.95);
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
+header {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
-nav{
-    line-height: 100px;
-    display: flex;
-    justify-content: space-between;
+nav {
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
-.logo{
-    text-decoration: none;
-    margin-left: 150px;
-    color: rgb(54, 86, 212);
-    font-size: 30px;
-    font-family:'Prompt', sans-serif;
-    font-weight: bolder;
+.logo {
+  text-decoration: none;
+  margin-left: 150px;
+  color: rgb(54, 86, 212);
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
 }
-nav ul{
-    display: flex;
-    margin: 0 150px 0 0;
+nav ul {
+  display: flex;
+  margin: 0 150px 0 0;
 }
-nav li{
-    list-style-type: none;
-    margin-left: 4rem;
+nav li {
+  list-style-type: none;
+  margin-left: 4rem;
 }
-.nav-link{
-    color: rgb(109, 123, 147);
-    text-decoration: none;
-    font-family:'Poppins', sans-serif;
-    font-weight:bold;
-    font-size: 1.2rem;
+.nav-link {
+  color: rgb(109, 123, 147);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.btn{
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color:rgb(57,89,214);
-    background-image:linear-gradient(90deg, rgba(57,89,214,1) 0%, rgba(40,73,199,1) 100%);
-    color: white;
-    border-radius: 5px;
-    font-family:'Promt', sans-serif;
-    font-size: 18px;
-    box-shadow: 0px 3px 20px -5px gray;
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(57, 89, 214);
+  background-image: linear-gradient(
+    90deg,
+    rgba(57, 89, 214, 1) 0%,
+    rgba(40, 73, 199, 1) 100%
+  );
+  color: white;
+  border-radius: 5px;
+  font-family: "Promt", sans-serif;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.btn:hover{
-    background-color:#F1F5FF ;
-    color:#2E4ECC;
-    background-image: none;
+.btn:hover {
+  background-color: #f1f5ff;
+  color: #2e4ecc;
+  background-image: none;
 }
 /* ----------------------------------------COONTENT------------------------------- */
-section{
-    width: 100%;
-    display: block;
+section {
+  width: 100%;
+  display: block;
 }
-.card{
-    display: flex;
-    margin-top: 5rem;
+.card {
+  display: flex;
+  margin-bottom: 5rem;
 }
-.info, .card_img{
-    width:50%;
+.info,
+.card_img {
+  width: 50%;
 }
-#jeringa{
-    width: 100%;
+#jeringa {
+  width: 100%;
 }
-.info_text1{
-    padding-top: 20%;
-    margin: 0 150px;
+.info_text1 {
+  padding-top: 20%;
+  margin: 0 150px;
 }
-.info_text1 h2{
-    font-weight: bolder;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(31, 62, 114);
-    line-height: 1;
+.info_text1 h2 {
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(31, 62, 114);
+  line-height: 1;
 }
-.info_text1{
-    font-family: 'Prompt', sans-serif;
-    color: #79869C;
-    font-size: 18px;
+.info_text1 {
+  font-family: "Prompt", sans-serif;
+  color: #79869c;
+  font-size: 18px;
 }
-#sellos ul{
-    margin: 5rem;
-    display: inline-flex;
+#sellos ul {
+  margin: 5rem;
+  display: inline-flex;
 }
-#sellos li{
-    display: flex;
-    line-height: 35px;
-    list-style-type: none;
-    font-size: 18px;
-    font-family: 'Prompt', sans-serif;
-    color: rgb(31, 62, 114);
-    align-items: stretch;
-    font-weight: bold;
-    margin-right: 4rem;
+#sellos li {
+  display: flex;
+  line-height: 35px;
+  list-style-type: none;
+  font-size: 18px;
+  font-family: "Prompt", sans-serif;
+  color: rgb(31, 62, 114);
+  align-items: stretch;
+  font-weight: bold;
+  margin-right: 4rem;
 }
-.stamp{
-    width: 35px;
-    margin-right: 1rem;
+.stamp {
+  width: 35px;
+  margin-right: 1rem;
 }
-#banner_farm{
-    width: 100%;
-} 
+#banner_farm {
+  width: 100%;
+}
 /* ---------------------Agendar vacuna----------------- */
-#schdl_vax{
-    border-radius: 5px;
+#schdl_vax {
+  border-radius: 5px;
 }
-.sch_card{
-    padding: 0.5rem 0.8rem;
-    margin:100px 0  0 120px;
-    font-size: 22px;
-    font-family: 'Prompt', sans-serif;
-    color: rgb(31, 62, 114);
-    align-items: stretch;
-    font-weight: bold;
-    border: 1px solid #F4F6FB;
-    border-radius: 8px;
+.sch_card {
+  background-color: #eef3ff;
+  display: inline-flex;
+  padding: 0.5rem 0.8rem;
+  margin: 100px 0 0 120px;
+  font-size: 22px;
+  font-family: "Prompt", sans-serif;
+  color: rgb(31, 62, 114);
+  align-items: stretch;
+  font-weight: bold;
+  border: 1px solid #f4f6fb;
+  border-radius: 8px;
 }
-.sch_card:hover{
-    border: 1px solid #1F3E72;
-    cursor: pointer;
+.sch_card:hover {
+  cursor: pointer;
 }
-.sch_card:hover ~ .agendar{
-    visibility: visible;
+.sch_card:hover ~ .agendar {
+  visibility: visible;
+  box-shadow: rgba(42, 74, 200, 0.15) 0px 12px 80px 0px;
 }
-#sch_icon{
-    width: 40px;
-    margin-right: 2rem;
+#sch_icon {
+  width: 40px;
+  margin-right: 2rem;
 }
-.agendar{
-    visibility: collapse;
-    display: flex;
-    align-items: center;
-    margin-left: 8rem;
-    position:relative;
-    border-radius: 4px;
-    width: 1000px;
-    height: 120px;
-    background-color: rgba(255, 255, 255, 0.95);
+.agendar {
+  visibility: collapse;
+  display: flex;
+  align-items: center;
+  margin-left: 8rem;
+  position: relative;
+  border-radius: 4px;
+  width: 1000px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.95);
 }
-.agendar:hover{
-    visibility: visible;
+.agendar:hover {
+  visibility: visible;
+  box-shadow: rgba(42, 74, 200, 0.15) 0px 12px 80px 0px;
 }
-.agenda_data{
-    width: 800px;
-    height: 80px;
+.agenda_data {
+  width: 800px;
+  height: 80px;
 }
-.icon_agend{
-    width: 40px;
-    height: 41px;
+.icon_agend {
+  width: 40px;
+  height: 41px;
 }
-.agenda_data th{
-    line-height: 40px;  
-    text-align: left;
-    font-family: 'Prompt', sans-serif;
-    color: #79869C;
-    font-size: 16px;
+.agenda_data th {
+  line-height: 40px;
+  text-align: left;
+  font-family: "Prompt", sans-serif;
+  color: #79869c;
+  font-size: 16px;
 }
-.agenda_data td{
-    text-align: center;
-    padding: 5px 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: rgb(31, 62, 114);
-    font-weight: bold;
+.agenda_data td {
+  text-align: center;
+  padding: 5px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: rgb(31, 62, 114);
+  font-weight: bold;
 }
-#btn_agendar{
-    background-color:rgb(57,89,214);
-    background-image:linear-gradient(90deg, rgba(57,89,214,1) 0%, rgba(40,73,199,1) 100%);
-    color: white;
-    border-radius: 3px;
-    font-family:'Promt', sans-serif;
-    font-size: 18px;
-    box-shadow: 0px 3px 20px -5px gray;
-    border: 0;
-    padding: 10px 20px;
-    height: 40px;
-
+#btn_agendar {
+  background-color: rgb(57, 89, 214);
+  background-image: linear-gradient(
+    90deg,
+    rgba(57, 89, 214, 1) 0%,
+    rgba(40, 73, 199, 1) 100%
+  );
+  color: white;
+  border-radius: 3px;
+  font-family: "Promt", sans-serif;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0;
+  padding: 10px 20px;
+  height: 40px;
 }
-#btn_agendar:hover{
-    background-image: none;
-    background-color:#F1F5FF;
-    color:#2E4ECC;    
-    cursor: pointer;
+#btn_agendar:hover {
+  background-image: none;
+  background-color: #f1f5ff;
+  color: #2e4ecc;
+  cursor: pointer;
 }
 /* --------------------Articles--------------------- */
-.article_img{
-    width: 45%;
-    height: fit-content;
+.article_img {
+  width: 45%;
+  height: fit-content;
 }
-.article_info{
-    width: 55%;
-    display:block;
+.article_info {
+  width: 55%;
+  display: block;
 }
-.article_title{
-    text-align: left;
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(31, 62, 114);
-    margin: 4rem;
+.article_title {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(31, 62, 114);
+  margin: 4rem;
 }
-.why_vaccine{
-    width: 30%;
+.why_vaccine {
+  width: 30%;
 }
-.article_p{
-    color: #79869C;
-    font-family: 'Prompt', sans-serif;
-    font-size: 18px;
-    margin: 4rem;
+.article_p {
+  color: #79869c;
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+  margin: 4rem;
 }
-.why_vaccine_card{
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 4rem;
+.why_vaccine_card {
+  margin: 0 10% 6rem;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 80%;
 }
-.benefits{
-    width: 300px;
-    height: 450px;
-    border-radius: 8px;
-    background-color: white;
-    border: 2px solid #FAFAFF ;
+.benefits {
+  transition: box-shadow 0.4s ease;
+  width: 19rem;
+  height: 23rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 4px solid #fafaff;
 }
-.preparations{
-    display: block;
+.preparations {
+  display: block;
 }
-.card_vaccine_icon{
-    width: 4rem;
-    height: 4rem;
-    margin: 2rem;
+.card_vaccine_icon {
+  border: white solid 3px;
+  transition: all 0.4s ease;
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
 }
-.benefits h4{
-    margin: 0 2rem;
-    font-size: 20px;
-    font-family: 'Prompt', sans-serif;
-    color: #1F3E72;
+.benefits h4 {
+  margin: 0 2rem;
+  font-size: 22px;
+  font-family: "Prompt", sans-serif;
+  color: #1f3e72;
 }
-.benefits p{
-    margin: 2rem;
-    font-family: 'Prompt', sans-serif;
-    font-size: 15px;
-    color: #79869C;
+.benefits p {
+  margin: 2rem;
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  color: #79869c;
 }
 .benefits:hover {
-    cursor: pointer;
-    box-shadow: 0px 3px 20px -5px gray;
+  cursor: pointer;
+  box-shadow: rgba(42, 74, 200, 0.1) 0px 20px 25px -5px,
+    rgba(42, 74, 200, 0.04) 0px 10px 10px -5px;
 }
-#preparations{
-    margin: 2rem 7rem;
+.benefits:hover .card_vaccine_icon {
+  border-radius: 8px;
+  box-shadow: rgba(42, 74, 200, 0.25) 0px 2px 60px -2px;
 }
-.prep_card{
-    transition: box-shadow 0.3s ease;
-    display: block;
-    padding: 1rem;
-    border-radius: 8px;
+#preparations {
+  margin: 2rem 7rem;
 }
-.recomendation{
-    display: inline-flex;
-    justify-content: space-between ;
-    width: 100%;
-    margin-bottom: 2rem;
+.prep_card {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
-.prep_card:hover .recom_descrption{
-    transition: visibility 1s ease-in;
-    visibility: visible;
-    margin-top: 0;
+.recomendation {
+  display: flex;
+  padding: 0.8rem;
+  justify-content: space-between;
+  border: #fafaff solid 3px;
+  border-radius: 8px;
+}
+.prep_card:hover .recom_descrption {
+  visibility: visible;
+  margin-top: 0;
 }
 .prep_card:hover {
-    box-shadow: 0px 2px 10px -2px gray;
-    cursor: pointer;
+  box-shadow: rgba(42, 74, 200, 0.15) 0px 12px 80px 0px;
+  cursor: pointer;
 }
-.recomendation_title{
-    display: inline-flex;
-    justify-content: center;
-    vertical-align: middle;
-    margin-block-start: 0;
-    margin-block-end: 0;
-
+.prep_card:hover .recomendation {
+  border: none;
 }
-.prep_icon, .prep_arrow{
-    vertical-align: middle;
-    width: 30px;
-    height: fit-content;
+.recomendation_title {
+  display: inline-flex;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
-.recom_bar_title{
-    margin-left: 2rem;
-    font-family: 'Prompt', sans-serif;
-    color: #1F3E72;
-    font-size: 20px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    line-height:40px ;
+.prep_icon,
+.prep_arrow {
+  vertical-align: middle;
+  width: 30px;
+  height: fit-content;
 }
-.recom_descrption{
-    transition: margin-top 0.4s ease;
-    visibility: hidden;
-    margin-top: -100px;
-    font-size: 16px;
-    font-family: 'Prompt', sans-serif;
-    color: #79869C;
+.recom_bar_title {
+  margin-left: 2rem;
+  font-family: "Prompt", sans-serif;
+  color: #1f3e72;
+  font-size: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 40px;
+}
+.recom_descrption {
+  margin: 2.5rem;
+  transition: margin-top 0.4s ease;
+  visibility: hidden;
+  margin-top: -100px;
+  font-size: 18px;
+  font-family: "Prompt", sans-serif;
+  color: #79869c;
 }
 /* ------------------CONTACTO DE EMERGENCIAS--------------- */
-#emergency_cards{
-    width: fit-content;
-    margin: 0 10%;
+.contact_card_title {
+  display: flex;
 }
-.contact_card{
-    float: left;
-    width: 13rem;
-    height: 10rem;
-    padding: 2rem  1.8rem ;
-    border-radius: 10px;
-    border: 2px #F8F9FE solid;
-    margin:2rem 7%;
-    background-color: white;
+#emergency_cards {
+  width: fit-content;
+  margin: 0 10%;
 }
-.contact_card:hover{
-    box-shadow: 0px 3px 20px -5px gray;
+.contact_card {
+  transition: box-shadow 0.4s ease;
+  float: left;
+  width: 13rem;
+  height: 10rem;
+  padding: 2rem 1.8rem 2.8rem;
+  border-radius: 10px;
+  border: 2px #f8f9fe solid;
+  margin: 2rem 7%;
+  background-color: white;
 }
-.contact_info{
-    margin: 0 0 0 1.5rem;
-    height: fit-content;
-
+.contact_card:hover {
+  box-shadow: rgba(42, 74, 200, 0.1) 0px 20px 25px -5px,
+    rgba(42, 74, 200, 0.04) 0px 15px 15px -5px;
 }
-.contact_card h4{
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    font-size: 20px;
-    color:hsl(218, 57%, 28%); 
+.contact_card:hover .contact_icon {
+  border: white solid 3px;
+  border-radius: 8px;
+  box-shadow: rgba(42, 74, 200, 0.25) 0px 2px 60px -2px;
 }
-.contact_card span{
-    color: #6D7B93;
-    font-family: 'Prompt', sans-serif;
-    font-size: 13px;
+.contact_info {
+  margin: 0 0 0 1.5rem;
+  height: fit-content;
 }
-.contact_icon{
-    width: 4rem;
-    height: fit-content;
+.contact_card h4 {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+  color: hsl(218, 57%, 28%);
 }
-.contact_button{
-    background-color:#F1F5FF ;
-    color:#2E4ECC;
-    border-radius: 3px;
-    font-family:'Poppins', sans-serif;
-    font-size: 18px;
-    border: 0;
-    margin: 4rem 1rem 0;
-    padding: 10px 20px;
-    height: 50px;
-    width: 180px;
+.contact_card span {
+  color: #6d7b93;
+  font-family: "Prompt", sans-serif;
+  font-size: 13px;
 }
-.contact_button:hover{
-    cursor: pointer;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 20px -5px gray;
-    background-color:#2E4ECC;
-    background-image:linear-gradient(90deg, rgba(57,89,214,1) 0%, rgba(40,73,199,1) 100%);
-
+.contact_icon {
+  border: white solid 3px;
+  transition: box-shadow 0.4s ease;
+  width: 4rem;
+  height: fit-content;
 }
-    /* -----------------------------------FOOTER---------------------------------- */
-footer{
-    background-color:#EEF3FF;
+.contact_button {
+  background-color: #f1f5ff;
+  color: #2e4ecc;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border: 0;
+  margin: 4rem 1rem 0;
+  padding: 10px 20px;
+  height: 50px;
+  width: 180px;
 }
-#footer_info{
-    display: flex;
-    justify-content: space-between;
-    margin:0 2.5rem 2.5rem;
+.contact_button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 3px 20px -5px gray;
+  background-color: #2e4ecc;
+  background-image: linear-gradient(
+    90deg,
+    rgba(57, 89, 214, 1) 0%,
+    rgba(40, 73, 199, 1) 100%
+  );
 }
-#vaccination_info{
-    display: flex;
+/* -----------------------------------FOOTER---------------------------------- */
+footer {
+  background-color: #eef3ff;
 }
-#atributes{
-    width: 20%;
-    margin: 0 1rem;
+#footer_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2.5rem 2.5rem;
 }
-#atributes a{
-    text-decoration: none;
-    color: #3757D5;
-    font-weight: bolder;
-    font-family:'Prompt', sans-serif;
+#vaccination_info {
+  display: flex;
 }
-#atributes a:hover{
-    color: #6c7fcc;
-    text-decoration: underline;
+#atributes {
+  width: 20%;
+  margin: 0 1rem;
 }
-.atributes_title{
-    color: #3757D5;
-    font-size: 30px;
-    font-family:'Prompt', sans-serif;
-    font-weight: bolder;
-    margin-block-end: 1rem;
+#atributes a {
+  text-decoration: none;
+  color: #3757d5;
+  font-weight: bolder;
+  font-family: "Prompt", sans-serif;
 }
-#atributes p{
-    font-family: 'Prompt', sans-serif;
-    color: #6D7B93;
-    font-size: 16px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    line-height: 2;
+#atributes a:hover {
+  color: #6c7fcc;
+  text-decoration: underline;
 }
-.footer_list{
-    text-align: center;
-    width: 200px;
-    margin: 2rem 1rem 2rem;
+.atributes_title {
+  color: #3757d5;
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: bolder;
+  margin-block-end: 1rem;
 }
-.footer_list h4{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #1F3E72;
+#atributes p {
+  font-family: "Prompt", sans-serif;
+  color: #6d7b93;
+  font-size: 16px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 2;
 }
-.footer_list ul{
-    padding-inline-start: 0;
+.footer_list {
+  text-align: center;
+  width: 200px;
+  margin: 2rem 1rem 2rem;
 }
-.footer_list li{
-    list-style-type: none;
-    padding: 5px;
-    margin: 1rem 0;
+.footer_list h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #1f3e72;
 }
-.footer_list a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #6D7B93;
-    font-family: 'Prompt', sans-serif;
+.footer_list ul {
+  padding-inline-start: 0;
 }
-.footer_list a:hover{
-    color: #3757D5;
+.footer_list li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 1rem 0;
 }
-#footer_terms span{
-    margin: 1rem 0 2rem;
+.footer_list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #6d7b93;
+  font-family: "Prompt", sans-serif;
 }
-#footer_terms{
-    display: flex;
-    margin: 0 2.5rem;
-    justify-content: space-between;
+.footer_list a:hover {
+  color: #3757d5;
 }
-#footer_terms ul{
-    display: inline-flex;
-    margin: 1rem 3rem 2rem;
+#footer_terms span {
+  margin: 1rem 0 2rem;
 }
-#footer_terms li{
-    list-style-type: none;
-    margin: 0 1rem;
-   
+#footer_terms {
+  display: flex;
+  margin: 0 2.5rem;
+  justify-content: space-between;
 }
-#footer_terms a, #footer_terms span{
-    color: #6D7B93;
-    font-family: 'Prompt', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
+#footer_terms ul {
+  display: inline-flex;
+  margin: 1rem 3rem 2rem;
 }
-#footer_terms a:hover{
-    color: #3757D5;
+#footer_terms li {
+  list-style-type: none;
+  margin: 0 1rem;
 }
-.prueba{
-    display: flex ;
+#footer_terms a,
+#footer_terms span {
+  color: #6d7b93;
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+#footer_terms a:hover {
+  color: #3757d5;
 }
